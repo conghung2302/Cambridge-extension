@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Cambridge Link Generator",
+  "version": "1.0",
+  "description": "Generate links to Cambridge Dictionary and Thesaurus for a given word.",
+  "permissions": ["activeTab", "contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+      "default_popup": "popup.html"
+
+  }
+}
